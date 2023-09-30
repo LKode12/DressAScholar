@@ -24,7 +24,8 @@ CREATE TABLE IF NOT EXISTS schools (
     id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
     name TEXT NOT NULL,
     email TEXT NOT NULL,
-    Quantile INTERGER
+    quantile INTERGER,
+    password TEXT NOT NULL
 )
 '''
 schools_cursor.execute(create_schools_table)
