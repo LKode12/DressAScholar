@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DressAScholar</title>
+</head>
+<body>
+    <!-- collects necessary info from customer that Paystack will use -->
+    <form id="payment-details" action="/charge" method="POST">
+        <input type="text" name="amount" placeholder="Amount"><br>
+        <br>
+        <input type="email" name="email" placeholder="Email"><br>
+        <br>
+        <a href="https://paystack.com/pay/dressascholar">Pay with PayStack</a>
+        <!-- <button type="submit">Pay with Paystack</button> -->
+    </form>
+</body>
+</html>
