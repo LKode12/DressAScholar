@@ -1,23 +1,54 @@
-// src/components/Home.js
-
 import React from 'react';
 
 function Home() {
   return (
-    
-    <div backgroundImage="./images/icon.png"style={{ textAlign: 'center', padding: '20px', backgroundImage: 'url("/images/background.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} className="home-container">
-      <h1 className="welcome-text">Welcome to Our DressAScholar Website</h1>
-      <img src="./images/include.png"/>
-      <img src="./images/icon.png" alt="Icon" style={{ width: '100px', height: 'auto', marginTop: '20px' }} />
+    <div className="home-container">
+      
+
+      <h1>Welcome to <strong><em>DressAScholar</em></strong> !</h1>
+      <div>
+      <img
+        suppressContentEditableWarning="./images/logo.png"
+        alt="image-above-paragraph"
+      />
+      </div>
       <p>
-        <strong>This is the home page of our charity website. You can find information
+        This is the home page of our charity website. You can find information
         about our charity, donate to our cause, and play games to support
-        charity initiatives.</strong>
+        charity initiatives.
       </p>
       <p>
         Explore the links in the navigation bar to learn more about us and
         how you can get involved!
       </p>
+      
+      <style>
+        {`
+          /* Add your CSS styles here */
+          .home-container {
+            text-align: center;
+            padding: 200px;
+            background-image: url('./images/icon.png')
+            background-color: lightgreen;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+
+          .image-above-paragraph {
+            width: 30px; /* Adjust the image size as needed */
+            margin-bottom: 20px; /* Add margin to space the image from the paragraph */
+          }
+
+          h1 {
+            color: darkgreen;
+          }
+
+          p {
+            color: black;
+          }
+        `}
+      </style>
     </div>
   );
 }
