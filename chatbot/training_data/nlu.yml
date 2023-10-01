@@ -1,0 +1,22 @@
+version: "3.0"
+nlu:
+
+
+intent: greet
+examples: |
+    - hi
+    - hello
+    - good morning
+    - sanibonani
+    - hey
+    - hala
+
+- intent: supply_contact_info 
+  examples: |
+  - My name is [Lehlogonolo](name). email's [hlogi@gmail.com](email)
+  - name: Lehlogonolo email: hlogi@gmail.com
+  - Yeah sure. I'm [Climentine](name). My email is [climentinep@gmail.com](email).
+  - [Raesibe](name), [rbgwangwa@gmail.com](email).
+  - Sure. It's [Fred](name). My email is [fred@email.com](email).
+
+  

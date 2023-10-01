@@ -1,0 +1,11 @@
+slots:
+name:
+type: text
+email:
+type: text
+
+
+responses:
+
+utter_ask_for_contact_info:
+- text: Hello! Could you please provide your contact information?
