@@ -9,6 +9,7 @@
 
 
 ## To initilize or setup chatbot repo
+pip3 install rasa
 rasa init
 
 
