@@ -15,11 +15,11 @@ function Donation() {
   return (
     <div>
       <h1>Make a Donation</h1>
-      <PaymentForm /> {/* Include the PaymentForm component */}
+      <a href="https://paystack.com/pay/dressascholar">Pay with PayStack</a>
       <br />
-      <button type="submit" onClick={handleDonation}>
+      {/* <button type="submit" onClick={handleDonation}>
         Donate
-      </button>
+      </button> */}
       {message && <p>{message}</p>}
     </div>
   );
